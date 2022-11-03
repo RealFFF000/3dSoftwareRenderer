@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d projection</title>
+    
+    <style>
+        #screen{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body onload="start();">
+    <canvas id="screen" width="1000px" height="1000px">
+        Don't use internet explorer lol
+    </canvas>
+    <p style="visibility: hidden;">
+        <button onclick="rotationYdeg += 1;">jał</button>
+        <button onclick="rotationXdeg += 1;">picz</button>
+        <button onclick="rotationYdeg += 1;">roll</button>
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
